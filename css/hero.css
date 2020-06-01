@@ -1,0 +1,42 @@
+.hero-slider-item {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-image: url(../img/Bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 480px;
+}
+.hero-content {
+	position: absolute;
+	left: 50%;
+	top: 70px;
+}
+.hero-content-inner {
+	padding: 10px 10px 10px 70px;
+}
+.title-banner {
+  font-size: 40px;
+ 	max-width: 295px;
+  line-height: 1.2;
+  text-align: left;
+	font-weight: lighter;
+	padding: 10px 0;
+}
+.hero-text{
+  font-size: 20px;
+  line-height: 1.25;
+  text-align: left;
+	font-weight: lighter;
+	min-width: 380px;
+	padding: 10px 0px;
+}
+
+.actions-btn:hover .fa {
+	color:#57c5a0;
+	
+}
+.hero-actions-btn {
+	padding: 15px 0;
+}

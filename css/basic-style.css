@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Aller';
+  src: url('../font/aller/Aller.eot?#iefix') format('embedded-opentype'), 
+	url('../font/aller/Aller.woff') format('woff'), 
+	url('../font/aller/Aller.ttf')  format('truetype'),
+	url('../font/aller/Aller.svg#Aller') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+img {
+   max-height: 100%;
+   max-width: 100%;
+   height: auto;
+}
+.wrapper {
+   max-width: 1920px;
+   width: 100%;
+   margin: 0 auto;
+}
+.container {
+	width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Aller";
+  color: rgb(36, 36, 36);
+}
+.price { 
+	width: 65px;
+	height: 65px;
+	background-color: #57c5a0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+ 
+.price-number {
+  font-size: 13px;
+  font-family: "Aller";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.actions-btn {
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	color: silver;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+}
+.actions-btn:hover .fa {
+	color:#57c5a0;
+}
+
