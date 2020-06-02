@@ -1,0 +1,35 @@
+.special-offers {
+	background-color: #242424;
+}
+.special-offers-inner {
+	display: flex;
+	margin: 0 -20px 0 -20px;
+}
+.special-offers-col {
+	flex: 0 0 33.33%;
+	padding: 30px 20px;
+}
+.special-offers-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 180px;
+	background-repeat: no-repeat;
+}
+.special-offers-link {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: lighter;
+	color: white;
+	padding: 20px 45px;
+	background-color: rgba(0, 0, 0, 0.88);
+}
+.special-offers-sale {
+	background-image: url(../img/specials/Img1.png);
+}
+.special-offers-bg {
+	background-image: url(../img/specials/Img2.png);
+}
+.special-offers-musthave {
+	background-image: url(../img/specials/Img3.png);
+}
