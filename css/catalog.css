@@ -1,0 +1,77 @@
+.catalog {
+	background-color: #ebe7df;
+	padding-top: 20px;
+}
+
+.catalog-header {
+	display: flex;
+	align-items: center;
+}
+.catalog-title{
+  font-size: 25px;
+  color: rgb(36, 36, 36);
+  line-height: 2.4;
+	margin-right: auto;
+	font-weight: lighter;
+}
+.new-arrivals-link { 
+	font-size: 14px;
+	color: rgb(188, 181, 167);
+  font-weight: bold;
+	text-decoration: none;
+	border: 1px solid  rgb(188, 181, 167);
+	padding: 8px 24px;
+}
+.new-arrivals-catalog,
+.best-seller-catalog {
+	display: flex;
+	margin: 0 -25px 0 -25px;
+}
+.catalog-col {
+	flex: 0 0 33.33%;
+	padding: 25px;
+}
+.catalog-img {
+	min-width: 300px;
+}
+.catalog-item-title {
+	width: 100%;
+	padding: 14px 0;
+	background-color: #ffffff;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+	border-top: 1px solid rgb(188, 181, 167);
+}
+ .catalog-button-bar {
+	width: 100%;
+	padding: 5px 0;
+	padding-right: 40px;
+	background-color: #ffffff;
+	text-align: right;
+	border-top: 1px solid rgb(188, 181, 167);
+}
+
+.catalog-item {
+	position: relative;
+	width: 100%;
+	font-size: 0;
+}
+.catalog-price{
+	bottom: 0;
+	left: 15px;
+}
+.catalog-sale {
+	top: 0;
+	right: 15px;
+}
+.catalog-stok {
+	top: 0;
+	right: 15px;
+}	
+
+
+.stok-text {
+	text-align: center;
+}
+

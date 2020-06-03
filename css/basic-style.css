@@ -37,15 +37,30 @@ body {
   color: rgb(36, 36, 36);
 }
 .price { 
-	width: 65px;
-	height: 65px;
+	
 	background-color: #57c5a0;
+	
+}
+.sale,
+.stok, 
+.price {
+	position: absolute;
+	width: 65px;
+	height: 65px;	
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-transform: uppercase;
+	color: white;	
+	font-size: 13px;
 	
+} 
+.sale {
+	background-color: black;
 }
- 
+.stok {
+	background-color: #f27e4b;
+}
 .price-number {
   font-size: 13px;
   font-family: "Aller";
